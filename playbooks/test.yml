@@ -1,0 +1,10 @@
+
+
+
+---
+ - hosts: machine1 
+   user: root
+   become: true
+   tasks:
+   - name: Install docker.io
+     apt: name=docker.io state=latest
