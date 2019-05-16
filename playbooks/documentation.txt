@@ -1,0 +1,15 @@
+steps
+
+1. launch two EC2 instances
+2. one for master and Slave (docker/jenkins)
+3. install git and ansible on master instance.
+4. Connect master to slave machine through SSH
+5. Create a playbook1 in master for installing Docker on slave
+6. Create a playbook2 to install and configure jenkins on same slave machine
+7. Create a dockerfile on slave machine to create our images.
+8. From slave start pulling jenkins images from docker registry and run it.
+9. from slave user can create and control the containers through docker files or docker-compose.
+
+
+
+
