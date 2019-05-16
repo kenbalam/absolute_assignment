@@ -9,6 +9,8 @@ steps
 7. Create a dockerfile on slave machine to create our images.
 8. From slave start pulling jenkins images from docker registry and run it.
 9. from slave user can create and control the containers through docker files or docker-compose.
+10. Through jenkins add ansible plugins and docker plugins
+11. users can control and configure the services from jenkins 
 
 
 
