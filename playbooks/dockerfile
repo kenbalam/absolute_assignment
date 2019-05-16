@@ -1,0 +1,12 @@
+FROM ubuntu 
+MAINTAINER kenblaam@gmail.com
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt install git -y 
+RUN apt install maven -y
+RUN apt install tomcat8
+mkdir absolute
+touch file1 file2
+
+ 
+
